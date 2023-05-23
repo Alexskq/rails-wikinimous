@@ -1,0 +1,41 @@
+.container{
+  text-align: center;
+  height: 100vh;
+  margin: 20px
+}
+
+
+.container li{
+  list-style: none;
+  padding: 20px;
+
+}
+.container ul{
+  padding-left: 0;
+}
+
+.container li a{
+  font-size: 40px;
+  font-weight: 500;
+  color: #337ab7;
+}
+
+.container p {
+  font-size: 20px;
+  color: rgb(204, 204, 204);
+}
+
+#btn{
+  background-color: #337ab7;
+  padding:10px;
+  color: white;
+  border-radius: 5px;
+  width: 400px;
+  margin: 40px auto;
+
+}
+#btn a {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}

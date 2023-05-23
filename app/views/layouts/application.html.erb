@@ -3,6 +3,7 @@
   <head>
     <title>RailsWikinimous</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Slab">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,6 +12,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <nav>
+      <ul class= "navbar">
+        <li> <a href="/app/views/articles/index.html.erb">Wikinimous</a></li>
+        <li> <a href="/app/views/articles/new.html.erb">New Article</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
